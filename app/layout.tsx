@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Rammetto_One, Lato } from "next/font/google";
+import { Bevan, Lato } from "next/font/google";
 import "./globals.css";
 
-const ramettoOne = Rammetto_One({
+const bevan = Bevan({
   weight: "400",
   subsets: ["latin"],
-  variable: "--font-rametto",
+  variable: "--font-bevan",
 });
 
 const lato = Lato({
@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ramettoOne.variable} ${lato.variable} antialiased`}>
+      <body className={`${bevan.variable} ${lato.variable} antialiased`}>
         {children}
       </body>
     </html>
