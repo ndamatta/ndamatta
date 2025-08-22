@@ -17,3 +17,7 @@ body {
   color: var(--foreground);
   font-family: Bevan, Lato, sans-serif;
 }
+
+.navitem-animation {
+  @apply transition delay-75 ease-in-out hover:-translate-y-0.5 hover:text-slate-200;
+}
