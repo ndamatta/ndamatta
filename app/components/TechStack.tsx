@@ -8,7 +8,9 @@ interface TechStackProps {
 export default function TechStack({ title }: TechStackProps) {
   return (
     <div className="flex flex-col items-center">
-      <h3 className="font-lato font-extrabold text-xl mb-4">{title}</h3>
+      <h3 className="font-lato font-extrabold text-xl mb-4 text-slate-800">
+        {title}
+      </h3>
       <div className="grid grid-cols-3 gap-4">
         {Array.from({ length: 6 }, (_, index) => (
           <div
