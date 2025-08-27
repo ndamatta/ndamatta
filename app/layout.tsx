@@ -6,6 +6,7 @@ const bevan = Bevan({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-bevan",
+  display: "swap",
 });
 
 const lato = Lato({
@@ -13,11 +14,21 @@ const lato = Lato({
   style: ["normal", "italic"],
   subsets: ["latin"],
   variable: "--font-lato",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Natanael da Matta",
-  description: "Portfolio of Natanael da Matta",
+  title: "Natanael da Matta - Full Stack Developer",
+  description:
+    "Portfolio of Natanael da Matta - Full Stack Developer specializing in React, Next.js, and modern web technologies",
+  keywords: "developer, portfolio, react, nextjs, full stack, web developer",
+  authors: [{ name: "Natanael da Matta" }],
+  openGraph: {
+    title: "Natanael da Matta - Full Stack Developer",
+    description:
+      "Portfolio showcasing modern web development projects and skills",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

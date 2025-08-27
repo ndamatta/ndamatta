@@ -3,19 +3,38 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer>
-      <div className="w-[160px] h-[40px] rounded-t-[40px] bg-indigo-900 pt-1 absolute bottom-0 justify-self-center content-center shadow-md">
-        <ul className="flex flex-row justify-evenly text-[23px] text-slate-100 font-bevan **:rounded-[13px]">
-          <li className="item-animation">
-            <Image
-              src="/linkedin.svg"
-              width={32}
-              height={32}
-              alt="Linkedin icon"
-            />
+    <footer className="flex justify-center mt-10 mt:mb-0">
+      <div className="bg-indigo-900 rounded-t-3xl px-6 py-2 shadow-md">
+        <ul className="flex gap-6">
+          <li>
+            <Link
+              href="https://linkedin.com/in/ndamatta"
+              className="block hover:scale-105 transition-transform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/linkedin.svg"
+                width={32}
+                height={32}
+                alt="LinkedIn profile"
+              />
+            </Link>
           </li>
-          <li className="item-animation">
-            <Image src="/github.svg" width={32} height={32} alt="Github icon" />
+          <li>
+            <Link
+              href="https://github.com/ndamatta"
+              className="block hover:scale-105 transition-transform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/github.svg"
+                width={32}
+                height={32}
+                alt="GitHub profile"
+              />
+            </Link>
           </li>
         </ul>
       </div>

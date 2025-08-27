@@ -2,27 +2,27 @@ import Image from "next/image";
 
 interface TechStackProps {
   title: string;
-  //icons: any[];
+  // icons?: string[]; // For future use
 }
 
-export default function TechStack(props: TechStackProps) {
+export default function TechStack({ title }: TechStackProps) {
   return (
-    <div className="flex flex-col items-center mt-7">
-      <h3 className="font-lato font-extrabold text-[20px]">{props.title}</h3>
-      <div className="grid grid-cols-3 gap-4 **:rounded-[13px]">
-        {/* MUST CREATE ASSESTS FOR EACH ICON AS SVG COMPONENTS IN THE FUTURE, INSERTING A CAT PLACEHOLDER FOR NOW
-        {props.icons.map((icon, index) => (
-          <div className="mt-5" key={index}>
-            {icon}
+    <div className="flex flex-col items-center">
+      <h3 className="font-lato font-extrabold text-xl mb-4">{title}</h3>
+      <div className="grid grid-cols-3 gap-4">
+        {Array.from({ length: 6 }, (_, index) => (
+          <div
+            key={index}
+            className="rounded-xl p-2 shadow-md hover:shadow-lg transition-shadow"
+          >
+            <Image
+              src="https://placecats.com/32/32"
+              width={32}
+              height={32}
+              alt={`${title} technology ${index + 1}`}
+            />
           </div>
         ))}
-          */}
-        <Image
-          src="https://placecats.com/32/32"
-          width={32}
-          height={32}
-          alt="Tech Stack icon"
-        />
       </div>
     </div>
   );
