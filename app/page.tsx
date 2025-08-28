@@ -10,12 +10,14 @@ export default function HomePage() {
           Hi!
         </h1>
         <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-          praesentium neque excepturi, sint maiores nisi facilis minima commodi
-          ex vero consectetur quas possimus voluptatem deleniti optio molestiae
-          laudantium est tempora assumenda ab provident at. Suscipit minus
-          eligendi qui libero ducimus atque? Quisquam aliquid, similique maiores
-          voluptates illo ullam voluptatum beatae.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet,
+          quisquam iste. Quo ab ipsum, delectus commodi dolore pariatur
+          doloremque quaerat. Laborum quidem aliquam, labore doloremque culpa
+          dolores ab voluptates illum, beatae reprehenderit distinctio magni.
+          Mollitia natus eligendi odio, ab vel impedit illo aliquid beatae
+          debitis saepe voluptatibus eveniet iste hic explicabo ex asperiores
+          ullam laudantium earum quo quasi! Dolore itaque expedita perspiciatis.
+          Sint, delectus a eaque culpa quod molestias dolor.
         </p>
       </div>
 

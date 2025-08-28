@@ -4,16 +4,18 @@ import Footer from "@/app/components/Footer";
 interface CardContainerProps {
   children: React.ReactNode;
   className?: string;
+  showFooter?: boolean;
 }
 
 export default function CardContainer({
   children,
   className = "",
+  showFooter = true,
 }: CardContainerProps) {
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <div
-        className={`bg-slate-100 w-full max-w-4xl flex flex-col rounded-3xl border-4 shadow-2xl border-indigo-900/80 h-[96vh] ${className}`}
+        className={`bg-slate-100 w-full max-w-4xl flex flex-col rounded-3xl border-4 shadow-2xl border-indigo-900/80 h-[90vh] ${className}`}
       >
         <Header />
 
@@ -21,7 +23,7 @@ export default function CardContainer({
           {children}
         </section>
 
-        <Footer />
+        {showFooter && <Footer />}
       </div>
     </div>
   );
