@@ -13,7 +13,7 @@ export default function CardContainer({
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <div
-        className={`bg-slate-100 w-full max-w-4xl flex flex-col rounded-3xl border-4 shadow-2xl border-indigo-900/80 h-[95vh] sm:h-[80vh] ${className}`}
+        className={`bg-slate-100 w-full max-w-4xl flex flex-col rounded-3xl border-4 shadow-2xl border-indigo-900/80 h-[96vh] ${className}`}
       >
         <Header />
 

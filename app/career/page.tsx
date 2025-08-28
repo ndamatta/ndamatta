@@ -1,6 +1,8 @@
 import CardContainer from "../components/CardContainer";
 import Job from "../components/Job";
-import jobs from "@/data/JobExperience.json";
+import Education from "../components/Education";
+import jobsData from "@/data/JobData.json";
+import educationData from "@/data/EducationData.json";
 
 export default function Career() {
   return (
@@ -19,15 +21,27 @@ export default function Career() {
           </p>
         </div>
 
-        {/* Job Experiences Section */}
+        {/* Jobs */}
         <div>
           <h2 className="text-3xl sm:text-3xl md:text-3xl font-bevan text-center mb-8 text-slate-800">
             Job Experiences
           </h2>
 
           <div className="relative pl-6 border-l-2 border-indigo-900">
-            {jobs.map((job, idx) => (
+            {jobsData.map((job, idx) => (
               <Job key={idx} {...job} />
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h2 className="text-3xl sm:text-3xl md:text-3xl font-bevan text-center mb-8 text-slate-800">
+            Education
+          </h2>
+
+          <div className="relative pl-6 border-l-2 border-indigo-900">
+            {educationData.map((education, idx) => (
+              <Education key={idx} {...education} />
             ))}
           </div>
         </div>

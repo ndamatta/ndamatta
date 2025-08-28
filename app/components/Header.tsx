@@ -7,7 +7,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex justify-center md:mb-6">
+    <header className="flex justify-center">
       <nav className="bg-indigo-900 rounded-b-3xl shadow-lg px-8 py-4 w-full max-w-md mx-4 relative">
         {/* Desktop Nav */}
         <ul className="hidden md:flex justify-between text-md md:text-xl text-slate-100 font-bevan">
