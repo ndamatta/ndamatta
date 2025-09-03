@@ -27,9 +27,38 @@ export default function HomePage() {
           Tech Stack
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-          <TechStack title="Front-end" />
-          <TechStack title="Back-end" />
-          <TechStack title="Tools" />
+          <TechStack
+            title="Front-end"
+            icons={[
+              "html.svg",
+              "css3.svg",
+              "js.svg",
+              "react.svg",
+              "nextjs.svg",
+              "tailwind.svg",
+              "wordpress.svg",
+            ]}
+          />
+          <TechStack
+            title="Back-end"
+            icons={[
+              "nodejs.svg",
+              "mongodb.svg",
+              "postgresql.svg",
+              "restapi.svg",
+            ]}
+          />
+          <TechStack
+            title="Tools"
+            icons={[
+              "git.svg",
+              "github.svg",
+              "npm.svg",
+              "jira.svg",
+              "slack.svg",
+              "figma.svg",
+            ]}
+          />
         </div>
       </section>
     </CardContainer>
