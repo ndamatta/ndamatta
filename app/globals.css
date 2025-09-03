@@ -21,9 +21,9 @@ body {
     rgb(15 23 42) 100%    /* slate-900 */
   );
   background-size: 200% 200%;
-  animation: gradientShift 10s ease-in-out infinite alternate;
   color: var(--foreground);
   font-family: var(--font-bevan), var(--font-lato), sans-serif;
+  animation: fadeIn 1s ease-in-out, gradientShift 5s ease-in-out infinite alternate;
 }
 
 @keyframes gradientShift {
@@ -33,4 +33,9 @@ body {
   100% {
     background-position: 70% 30%;
   }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
