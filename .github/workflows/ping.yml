@@ -1,23 +1,22 @@
-name: ping
+name: keep app warm (ARG 8:00–23:00)
 
 on:
   schedule:
-    # Run at 00, 15, 30, and 45 minutes past each hour
-    # From 08:00 until 23:45 Argentina time
-    - cron: '0,15,30,45 11-23,0-2 * * *'
+    # Every 20 minutes between 11:00 and 23:00 UTC (8:00–20:00 ARG)
+    - cron: '0,20,40 11-23 * * *'
+    # Every 20 minutes between 00:00 and 02:00 UTC (21:00–23:00 ARG)
+    - cron: '0,20,40 0-2 * * *'
   workflow_dispatch:
 
 env:
-  TARGET_URL: https://ndamatta.onrender.com/
+  TARGET_URL: https://ndamatta.onrender.com
 
 jobs:
   ping-render:
     runs-on: ubuntu-latest
-    env:
-      TZ: America/Argentina/Buenos_Aires
 
     steps:
       - name: Ping Render service
         run: |
-          echo "Pinging $TARGET_URL at $(date)..."
+          echo "Pinging $TARGET_URL..."
           curl -IL --fail "$TARGET_URL" || echo "Ping failed at $(date)"
