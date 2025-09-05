@@ -22,7 +22,7 @@ export default function Project({
     <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
       <div className="mb-4 rounded-xl overflow-hidden">
         <Image
-          src={image}
+          src={`/images/projects/${image}`}
           width={400}
           height={250}
           alt={title}
