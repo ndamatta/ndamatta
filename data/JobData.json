@@ -1,26 +1,20 @@
 [
   {
-    "company": "Lorem company",
-    "period": "Mar 2023 – Present",
-    "title": "Lorem position",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ratione eligendi sapiente, eius, obcaecati deserunt animi exercitationem explicabo perferendis unde, molestiae quod. Mollitia quae quis voluptate non minima deserunt explicabo quam quibusdam natus, vel maxime doloribus sint! Inventore eum veniam sit ipsam praesentium minus ipsum necessitatibus esse nulla voluptas. Eum."
+    "company": "Private Company",
+    "period": "2024 - Present",
+    "title": "Full-Stack Dev. and IT",
+    "description": ""
   },
   {
-    "company": "Lorem company",
-    "period": "Mar 2023 – Present",
-    "title": "Lorem position",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ratione eligendi sapiente, eius, obcaecati deserunt animi exercitationem explicabo perferendis unde, molestiae quod. Mollitia quae quis voluptate non minima deserunt explicabo quam quibusdam natus, vel maxime doloribus sint! Inventore eum veniam sit ipsam praesentium minus ipsum necessitatibus esse nulla voluptas. Eum."
+    "company": "New Alliance Ins. Brokers Inc.",
+    "period": "2021 – 2024",
+    "title": "Web Developer",
+    "description": "Insurance brokerage company connecting individuals and large transportation companies with insurance providers, offering customized quotes.\nDeveloped and maintained web applications and website components using Node.js, HTML5, CSS, JavaScript, and PostgreSQL within an MVC architecture.\nUsed Git for version control to ensure code quality and smooth collaboration, participated in testing and feature deployment, and collaborated remotely to enhance user experience and application performance."
   },
   {
-    "company": "Lorem company",
-    "period": "Mar 2023 – Present",
-    "title": "Lorem position",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ratione eligendi sapiente, eius, obcaecati deserunt animi exercitationem explicabo perferendis unde, molestiae quod. Mollitia quae quis voluptate non minima deserunt explicabo quam quibusdam natus, vel maxime doloribus sint! Inventore eum veniam sit ipsam praesentium minus ipsum necessitatibus esse nulla voluptas. Eum."
-  },
-  {
-    "company": "Lorem company",
-    "period": "Mar 2023 – Present",
-    "title": "Lorem position",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ratione eligendi sapiente, eius, obcaecati deserunt animi exercitationem explicabo perferendis unde, molestiae quod. Mollitia quae quis voluptate non minima deserunt explicabo quam quibusdam natus, vel maxime doloribus sint! Inventore eum veniam sit ipsam praesentium minus ipsum necessitatibus esse nulla voluptas. Eum."
+    "company": "xSoft Sistemas",
+    "period": "2018 – 2019",
+    "title": "IT Support & Helpdesk",
+    "description": "Software company providing digital solutions like CRM systems for small markets and dental clinics.\nSupported clients through Jira, managed tickets, and handled database tasks including data entry, validation, and basic analysis. Assisted with system and application setup.\nGained strong communication, organization, and problem-solving skills in a hybrid (remote and on-site) environment."
   }
 ]

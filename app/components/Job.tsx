@@ -24,7 +24,10 @@ export default function Job({ company, period, title, description }: Job) {
           <h3 className="font-lato font-semibold text-base sm:text-lg md:text-xl text-slate-800">
             {title}
           </h3>
-          <p className="mt-2 font-lato text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed">
+          <p
+            className="mt-2 font-lato text-sm sm:text-base md:text-lg text-slate-700 leading-relaxed"
+            style={{ whiteSpace: "pre-line" }}
+          >
             {description}
           </p>
         </div>

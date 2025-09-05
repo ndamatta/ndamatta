@@ -1,14 +1,14 @@
 [
   {
-    "institution": "Lorem Ipsum University",
-    "period": "2018 - 2022",
-    "title": "Bachelor of Science in Computer Science",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "institution": "Brigham Young University - Idaho",
+    "period": "2022 - Present",
+    "title": "Bachelor of Science – Software Development",
+    "description": "Pursuing a Bachelor’s in Software Development (online, asynchronous), focused on web development and software engineering. Completed a Web and Computer Programming Certificate (GPA 3.91) and an Associate Degree in Web Development. Collaborate on individual and group coding projects with international peers, applying problem-solving, teamwork, and communication skills."
   },
   {
-    "institution": "Dolor Sit Amet Institute",
-    "period": "2023 - 2025",
-    "title": "Master of Software Development",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit."
+    "institution": "BYU - Pathway Connect",
+    "period": "2021 - 2022",
+    "title": "University Preparation Program",
+    "description": "Official preparation program for admission to Brigham Young University–Idaho, covering core U.S. subjects like Math, English, Workplace Orientation, and communication skills. Collaborated on presentations and independent projects with international peers, enhancing leadership, problem-solving, and communication abilities. Adapted to online learning while maintaining high academic standards, completing the program with a GPA of 3.61."
   }
 ]

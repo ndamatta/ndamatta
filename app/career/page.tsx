@@ -13,11 +13,11 @@ export default function Career() {
           <h1 className="text-3xl sm:text-3xl md:text-3xl font-bevan text-slate-800 mb-4">
             Career
           </h1>
-          <p className="text-base sm:text-lg md:text-xl font-lato text-slate-700 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
-            architecto, quaerat explicabo dolore quas velit repudiandae. Quidem
-            sequi sed ab at non alias blanditiis, quasi esse fuga vel recusandae
-            illo!
+          <p className="text-base sm:text-lg md:text-xl font-lato leading-relaxed mx-auto text-slate-700">
+            I’ve contributed to corporate full-stack projects, building scalable
+            and reliable applications. I collaborate with cross-functional
+            teams, tackle complex technical challenges, optimize workflows, and
+            continuously learn to deliver high-quality software solutions.
           </p>
         </div>
 
