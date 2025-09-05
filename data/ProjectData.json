@@ -1,34 +1,10 @@
 [
   {
-    "title": "Lorem, ipsum.",
-    "image": "https://placecats.com/400/250",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptatum. Architecto ipsum mollitia quisquam assumenda voluptatibus consectetur.",
-    "demoUrl": "Lorem, ipsum.",
-    "githubUrl": "Lorem, ipsum.",
-    "videoUrl": "Lorem, ipsum."
-  },
-  {
-    "title": "Lorem, ipsum.",
-    "image": "https://placecats.com/400/250",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    "demoUrl": "Lorem, ipsum.",
-    "githubUrl": "Lorem, ipsum.",
-    "videoUrl": "Lorem, ipsum."
-  },
-  {
-    "title": "Lorem, ipsum.",
-    "image": "https://placecats.com/400/250",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.",
-    "demoUrl": "Lorem, ipsum.",
-    "githubUrl": "Lorem, ipsum.",
-    "videoUrl": "Lorem, ipsum."
-  },
-  {
-    "title": "Lorem, ipsum.",
-    "image": "https://placecats.com/400/250",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.",
-    "demoUrl": "Lorem, ipsum.",
-    "githubUrl": "Lorem, ipsum.",
-    "videoUrl": "Lorem, ipsum."
+    "title": "unFollowIG",
+    "image": "unFollowIG.png",
+    "description": "Discover who doesn’t follow you back on Instagram, securely and privately. Built with HTML5, CSS3, JavaScript, and Bulma for a clean, responsive interface.",
+    "demoUrl": "https://unfollowig.onrender.com",
+    "githubUrl": "https://github.com/ndamatta/unfollowig",
+    "videoUrl": ""
   }
 ]
