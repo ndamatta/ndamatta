@@ -9,15 +9,20 @@ export default function HomePage() {
         <h1 className="text-3xl sm:text-3xl md:text-4xl font-bevan text-slate-800">
           Hi!
         </h1>
-        <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet,
-          quisquam iste. Quo ab ipsum, delectus commodi dolore pariatur
-          doloremque quaerat. Laborum quidem aliquam, labore doloremque culpa
-          dolores ab voluptates illum, beatae reprehenderit distinctio magni.
-          Mollitia natus eligendi odio, ab vel impedit illo aliquid beatae
-          debitis saepe voluptatibus eveniet iste hic explicabo ex asperiores
-          ullam laudantium earum quo quasi! Dolore itaque expedita perspiciatis.
-          Sint, delectus a eaque culpa quod molestias dolor.
+
+        {/* prettier-ignore */}
+        <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
+          I’m a <span className="font-semibold text-slate-900">full-stack developer</span> with over <span className="font-semibold">3 years of experience</span> in the corporate tech industry. I focus on writing clean, efficient code that delivers reliable solutions and seamless user experiences.
+        </p>
+
+        {/* prettier-ignore */}
+        <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
+          Outside of work, I enjoy <span className="italic">football, board games</span>, and <span className="italic">exploring new video games</span>.
+        </p>
+
+        {/* prettier-ignore */}
+        <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
+          Want to learn more? Check out my <a href="/career" className="text-blue-600 font-medium hover:underline">Career Path</a> or explore some of my <a href="/projects" className="text-blue-600 font-medium hover:underline">Projects</a>.
         </p>
       </div>
 
