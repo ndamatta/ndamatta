@@ -21,12 +21,10 @@ export default function ContactPage() {
         <h1 className="text-3xl sm:text-3xl md:text-4xl font-bevan text-slate-800">
           Let's Connect!
         </h1>
-        <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima hic
-          doloremque facilis, accusamus, qui numquam laboriosam dolorum aliquid
-          eligendi, nemo iusto eius sunt veritatis. Culpa vitae recusandae sequi
-          ea quidem aspernatur sit, ipsam natus autem repellat, quam nemo
-          nostrum doloremque!
+        {/* prettier-ignore */}
+        <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed md:leading-loose text-slate-700 mx-auto text-center">
+          I’m open to <span className="font-semibold text-indigo-900">exciting opportunities</span> and collaborations in software development. 
+          If you’d like to discuss a project, role, or just connect, feel free to <span className="font-semibold text-indigo-900">reach out via LinkedIn or GitHub</span> below.
         </p>
       </div>
 
