@@ -6,13 +6,12 @@ export default function ContactPage() {
   return (
     <CardContainer showFooter={false}>
       <div className="flex justify-center mb-8 mt-8">
-        <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full border-4 border-indigo-900 overflow-hidden shadow-lg">
+        <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-indigo-900 shadow-lg">
           <Image
-            src="/profile.jpg"
-            width={192}
-            height={192}
+            src="/images/contact/pfp.png"
             alt="Profile picture"
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
           />
         </div>
       </div>
