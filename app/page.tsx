@@ -38,10 +38,11 @@ export default function HomePage() {
               "html.svg",
               "css3.svg",
               "js.svg",
+              "wordpress.svg",
               "react.svg",
               "nextjs.svg",
               "tailwind.svg",
-              "wordpress.svg",
+              "bulma.svg",
             ]}
           />
           <TechStack
