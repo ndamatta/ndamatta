@@ -8,14 +8,13 @@ export default function ProjectsPage() {
       <section className="flex-1 px-6 md:px-16 py-8 space-y-12">
         <div className="text-center max-w-2xl mx-auto">
           <h1 className="text-3xl sm:text-3xl md:text-3xl font-bevan text-slate-800 mb-4">
-            My Projects
+            Projects
           </h1>
           <p className="text-base sm:text-lg md:text-xl font-lato text-slate-700 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            cum illum similique corrupti ad laboriosam placeat suscipit
-            doloribus repellat architecto aliquid, quae amet minima est
-            consequuntur tempora atque consequatur quibusdam quas iure dolore
-            nobis ea. Ex, dolorum. Quas, nobis laboriosam.
+            A selection of projects I’ve built to explore new technologies,
+            solve real-world problems, and sharpen my skills as a full-stack
+            developer. Each project reflects my focus on clean, efficient code,
+            collaboration, and delivering practical solutions.
           </p>
         </div>
 
