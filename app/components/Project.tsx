@@ -21,10 +21,8 @@ export default function Project({
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
       <div className="mb-4 rounded-xl overflow-hidden">
-        <Image
+        <img
           src={`/images/projects/${image}`}
-          width={400}
-          height={250}
           alt={title}
           className="w-full object-cover hover:brightness-90 transition duration-200"
         />

@@ -7,11 +7,10 @@ export default function ContactPage() {
     <CardContainer showFooter={false}>
       <div className="flex justify-center mb-8 mt-8">
         <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-indigo-900 shadow-lg">
-          <Image
+          <img
             src="/images/contact/pfp.png"
             alt="Profile picture"
-            fill
-            className="object-cover"
+            className="w-full h-full object-cover"
           />
         </div>
       </div>
