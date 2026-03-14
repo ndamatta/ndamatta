@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ContactPage() {
   return (
-    <CardContainer showFooter={false}>
+    <CardContainer showFooter={false} containerWidth="max-w-4xl">
       <div className="flex justify-center mb-8 mt-8">
         <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-indigo-900 shadow-lg">
           <img
@@ -21,8 +21,10 @@ export default function ContactPage() {
         </h1>
         {/* prettier-ignore */}
         <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed md:leading-loose text-slate-700 mx-auto text-center">
-          I’m open to <span className="font-semibold text-indigo-900">exciting opportunities</span> and collaborations in software development. 
-          If you’d like to discuss a project, role, or just connect, feel free to <span className="font-semibold text-indigo-900">reach out via LinkedIn or GitHub</span> below.
+          I’m open to <span className="font-semibold text-indigo-900">new opportunities</span> and collaborations in software development.
+        </p>
+        <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed md:leading-loose text-slate-700 mx-auto text-center">
+          If you’d like to talk about a project, a role, or just connect, feel free to <span className="font-semibold text-indigo-900">reach out through LinkedIn or GitHub</span> below.
         </p>
       </div>
 
