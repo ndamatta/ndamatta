@@ -12,7 +12,7 @@ export default function HomePage() {
 
         {/* prettier-ignore */}
         <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
-          I’m a <span className="font-semibold text-slate-900">full-stack developer</span> with over <span className="font-semibold">3 years of experience</span> in the corporate tech industry. I focus on writing clean, efficient code that delivers reliable solutions and seamless user experiences.
+          I’m Natanael, a <span className="font-semibold text-slate-900">full-stack developer</span> with over <span className="font-semibold">4 years of experience</span> in the tech industry. I focus on writing clean, efficient code to deliver reliable solutions and great user experiences.
         </p>
 
         {/* prettier-ignore */}
@@ -22,7 +22,7 @@ export default function HomePage() {
 
         {/* prettier-ignore */}
         <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
-          Want to learn more? Check out my <a href="/career" className="text-blue-600 font-medium hover:underline">Career Path</a> or explore some of my <a href="/projects" className="text-blue-600 font-medium hover:underline">Projects</a>.
+          Check out my <a href="/career" className="text-blue-600 font-medium hover:underline">career path</a> or explore some of my <a href="/projects" className="text-blue-600 font-medium hover:underline">projects</a>.
         </p>
       </div>
 
