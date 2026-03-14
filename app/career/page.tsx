@@ -6,7 +6,7 @@ import educationData from "@/data/EducationData.json";
 
 export default function Career() {
   return (
-    <CardContainer>
+    <CardContainer containerWidth="max-w-6xl">
       <section className="flex-1 px-6 md:px-16 py-8 space-y-12">
         {/* Hero Section */}
         <div className="text-center max-w-2xl mx-auto">
@@ -14,11 +14,12 @@ export default function Career() {
             Career
           </h1>
           <p className="text-base sm:text-lg md:text-xl font-lato leading-relaxed mx-auto text-slate-700">
-            I’ve contributed to corporate full-stack projects, building scalable
-            and reliable applications. I collaborate with cross-functional
-            teams, tackle complex technical challenges, optimize workflows, and
-            continuously learn to deliver high-quality software solutions.
+            I’ve worked for different companies, <span className="font-semibold text-slate-900">both in person and remotely</span>, with teams around the world. I enjoy taking on new challenges and learning new technologies. 
           </p>
+          <p className="text-base sm:text-lg md:text-xl font-lato leading-relaxed mx-auto text-slate-700">
+            Here you’ll find a <span className="font-semibold text-slate-900">timeline</span> of where I’ve worked.
+          </p>
+
         </div>
 
         {/* Jobs */}
