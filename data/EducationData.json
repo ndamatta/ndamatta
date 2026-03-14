@@ -1,14 +1,20 @@
 [
   {
-    "institution": "Brigham Young University - Idaho",
-    "period": "2022 - Present",
-    "title": "Bachelor of Science – Software Development",
-    "description": "Pursuing a Bachelor’s in Software Development (online, asynchronous), focused on web development and software engineering. Completed a Web and Computer Programming Certificate (GPA 3.91) and an Associate Degree in Web Development. Collaborate on individual and group coding projects with international peers, applying problem-solving, teamwork, and communication skills."
+    "institution": "Brigham Young University–Idaho",
+    "period": "2025 – Expected Jun 2026",
+    "title": "B.S. – Software Development",
+    "description": "Currently completing a Bachelor's degree in Software Development (online and asynchronous), with a focus on web development and software engineering. I work on programming projects both individually and in teams, collaborating remotely."
   },
   {
-    "institution": "BYU - Pathway Connect",
-    "period": "2021 - 2022",
+    "institution": "Brigham Young University–Idaho",
+    "period": "2022 – 2025",
+    "title": "A.A.S – Software Development",
+    "description": "Associate degree focused on programming, web development, databases, and software design."
+  },
+  {
+    "institution": "BYU–Pathway Connect",
+    "period": "2021 – 2022",
     "title": "University Preparation Program",
-    "description": "Official preparation program for admission to Brigham Young University–Idaho, covering core U.S. subjects like Math, English, Workplace Orientation, and communication skills. Collaborated on presentations and independent projects with international peers, enhancing leadership, problem-solving, and communication abilities. Adapted to online learning while maintaining high academic standards, completing the program with a GPA of 3.61."
+    "description": "Preparation program for admission to Brigham Young University–Idaho."
   }
 ]
