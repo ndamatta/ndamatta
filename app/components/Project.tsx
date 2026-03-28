@@ -19,7 +19,7 @@ export default function Project({
   videoUrl,
 }: Project) {
   return (
-    <div className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+    <div className="bg-white rounded-2xl shadow-lg p-3 hover:shadow-xl transition-shadow duration-300">
       <div className="mb-4 rounded-xl overflow-hidden">
         <img
           src={`/images/projects/${image}`}
@@ -34,12 +34,12 @@ export default function Project({
         {description}
       </p>
 
-      <div className="flex gap-3">
+      <div className="flex flex-wrap gap-3">
         <Link
           href={demoUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex-1 border-2 bg-indigo-900 border-indigo-900 text-slate-100 px-3 py-2 rounded-lg text-sm font-lato text-center hover:brightness-90 duration-100"
+          className="w-full sm:flex-1 border-2 bg-indigo-900 border-indigo-900 text-slate-100 px-4 py-2 rounded-lg text-sm font-lato text-center hover:brightness-90 duration-100"
         >
           Demo
         </Link>
@@ -47,7 +47,7 @@ export default function Project({
           href={githubUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex-1 border-2 border-indigo-900 text-indigo-900 px-3 py-2 rounded-lg text-sm font-lato text-center hover:bg-indigo-900 hover:text-slate-100 transition-all duration-100"
+          className="flex-1 border-2 border-indigo-900 text-indigo-900 px-1 py-2 rounded-lg text-sm font-lato text-center hover:bg-indigo-900 hover:text-slate-100 transition-all duration-100"
         >
           GitHub
         </Link>
@@ -55,7 +55,7 @@ export default function Project({
           href={videoUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex-1 border-2 border-indigo-900 text-indigo-900 px-3 py-2 rounded-lg text-sm font-lato text-center hover:bg-indigo-900 hover:text-slate-100 transition-all duration-100"
+          className="flex-1 border-2 border-indigo-900 text-indigo-900 px-1 py-2 rounded-lg text-sm font-lato text-center hover:bg-indigo-900 hover:text-slate-100 transition-all duration-100"
         >
           Video
         </Link>
