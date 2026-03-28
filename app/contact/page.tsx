@@ -33,7 +33,7 @@ export default function ContactPage() {
           Get In Touch
         </h2>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center mb-8">
           <div className="bg-indigo-900 rounded-3xl px-8 py-6 shadow-lg">
             <ul className="flex gap-8">
               <li>
