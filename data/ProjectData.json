@@ -1,8 +1,8 @@
 [
   {
-    "title": "unFollowIG",
-    "image": "unfollowig.png",
-    "description": "Discover who doesn’t follow you back on Instagram, securely and privately. Built with HTML5, CSS3, JavaScript, and Bulma for a clean, responsive interface.",
+    "title": "unfollowz",
+    "image": "unfollowz.png",
+    "description": "Find who doesn’t follow you back on Instagram, no third party apps. Built with HTML and BulmaCSS.",
     "demoUrl": "https://unfollowig.onrender.com",
     "githubUrl": "https://github.com/ndamatta/unfollowig",
     "videoUrl": ""
