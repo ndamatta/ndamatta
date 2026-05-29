@@ -8,6 +8,7 @@ type Project = {
   demoUrl: string;
   githubUrl: string;
   videoUrl: string;
+  technologies: string[];
 };
 
 export default function Project({
@@ -17,6 +18,7 @@ export default function Project({
   demoUrl,
   githubUrl,
   videoUrl,
+  technologies,
 }: Project) {
   return (
     <div className="bg-white rounded-2xl shadow-lg p-3 hover:shadow-xl transition-shadow duration-300">
@@ -29,7 +31,15 @@ export default function Project({
         />
       </div>
 
-      <h3 className="text-xl font-bevan text-slate-800 mb-3">{title}</h3>
+      <h3 className="text-xl font-bevan text-slate-800 mb-1">{title}</h3>
+
+      <div className="flex flex-wrap gap-1 mb-2">
+        {technologies.map((tech) => (
+          <span key={tech} className="text-xs font-lato px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-900">
+            {tech}
+          </span>
+        ))}
+      </div>
 
       <p className="text-sm font-lato text-slate-600 mb-6 leading-relaxed">
         {description}
