@@ -1,8 +1,15 @@
+import type { Metadata } from "next";
 import CardContainer from "../components/CardContainer";
 import Job from "../components/Job";
 import Education from "../components/Education";
 import jobsData from "@/data/JobData.json";
 import educationData from "@/data/EducationData.json";
+
+export const metadata: Metadata = {
+  title: "Career - Natanael da Matta",
+  description:
+    "Work experience and education history of Natanael da Matta, Full-Stack Developer.",
+};
 
 export default function Career() {
   return (

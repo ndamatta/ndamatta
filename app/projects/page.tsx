@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import CardContainer from "../components/CardContainer";
 import Project from "../components/Project";
 import projectsData from "@/data/ProjectData.json";
+
+export const metadata: Metadata = {
+  title: "Projects - Natanael da Matta",
+  description:
+    "Personal projects built by Natanael da Matta to solve real problems and practice new technologies.",
+};
 
 export default function ProjectsPage() {
   return (

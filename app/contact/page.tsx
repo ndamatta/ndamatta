@@ -1,16 +1,24 @@
+import type { Metadata } from "next";
 import CardContainer from "../components/CardContainer";
 import Link from "next/link";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Contact - Natanael da Matta",
+  description:
+    "Get in touch with Natanael da Matta via LinkedIn or GitHub for collaborations and opportunities.",
+};
 
 export default function ContactPage() {
   return (
     <CardContainer showFooter={false} containerWidth="max-w-4xl">
       <div className="flex justify-center mb-8 mt-8">
         <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-indigo-900 shadow-lg">
-          <img
+          <Image
             src="/images/contact/pfp.png"
-            alt="Profile picture"
-            className="w-full h-full object-cover"
+            alt="Natanael da Matta"
+            fill
+            className="object-cover"
           />
         </div>
       </div>
