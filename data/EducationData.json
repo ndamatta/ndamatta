@@ -3,18 +3,21 @@
     "institution": "Brigham Young University–Idaho",
     "period": "2025 – Expected Jun 2026",
     "title": "B.S. – Software Development",
+    "tags": [],
     "description": "Currently completing a Bachelor's degree in Software Development (online and asynchronous), with a focus on web development and software engineering. I work on programming projects both individually and in teams, collaborating remotely."
   },
   {
     "institution": "Brigham Young University–Idaho",
     "period": "2022 – 2025",
     "title": "A.A.S – Software Development",
+    "tags": [],
     "description": "Associate degree focused on programming, web development, databases, and software design."
   },
   {
     "institution": "BYU–Pathway Connect",
     "period": "2021 – 2022",
     "title": "University Preparation Program",
+    "tags": [],
     "description": "Preparation program for admission to Brigham Young University–Idaho."
   }
 ]

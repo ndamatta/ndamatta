@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Badge from "./Badge";
 
 type Project = {
   title: string;
@@ -35,9 +36,7 @@ export default function Project({
 
       <div className="flex flex-wrap gap-1 mb-2">
         {technologies.map((tech) => (
-          <span key={tech} className="text-xs font-lato px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-900">
-            {tech}
-          </span>
+          <Badge key={tech} label={tech} />
         ))}
       </div>
 
