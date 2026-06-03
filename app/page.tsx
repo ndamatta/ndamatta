@@ -1,9 +1,8 @@
-import CardContainer from "./components/CardContainer";
 import TechStack from "./components/TechStack";
 
 export default function HomePage() {
   return (
-    <CardContainer containerWidth="max-w-4xl">
+    <>
       {/* Hero */}
       <div className="text-center space-y-6 mb-12 mt-8">
         <h1 className="text-3xl sm:text-3xl md:text-4xl font-bevan text-slate-800">
@@ -67,6 +66,6 @@ export default function HomePage() {
           />
         </div>
       </section>
-    </CardContainer>
+    </>
   );
 }

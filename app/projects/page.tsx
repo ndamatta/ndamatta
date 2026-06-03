@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import CardContainer from "../components/CardContainer";
 import Project from "../components/Project";
 import projectsData from "@/data/ProjectData.json";
 
@@ -11,8 +10,7 @@ export const metadata: Metadata = {
 
 export default function ProjectsPage() {
   return (
-    <CardContainer containerWidth="max-w-4xl">
-      <section className="flex-1 px-6 md:px-16 py-8 space-y-12">
+    <section className="flex-1 px-6 md:px-16 py-8 space-y-12">
         <div className="text-center max-w-2xl mx-auto">
           <h1 className="text-3xl sm:text-3xl md:text-3xl font-bevan text-slate-800 mb-4">
             Projects
@@ -31,6 +29,5 @@ export default function ProjectsPage() {
           ))}
         </div>
       </section>
-    </CardContainer>
   );
 }

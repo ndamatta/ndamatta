@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import CardContainer from "../components/CardContainer";
 import Job from "../components/Job";
 import Education from "../components/Education";
 import jobsData from "@/data/JobData.json";
@@ -13,7 +12,6 @@ export const metadata: Metadata = {
 
 export default function Career() {
   return (
-    <CardContainer containerWidth="max-w-6xl">
 <section className="py-8 space-y-12 w-full">
         {/* Hero Section */}
         <div className="text-center max-w-2xl mx-auto">
@@ -56,6 +54,5 @@ export default function Career() {
           </div>
         </div>
       </section>
-    </CardContainer>
   );
 }

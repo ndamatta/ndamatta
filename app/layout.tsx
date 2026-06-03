@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Bevan, Lato } from "next/font/google";
+import CardContainer from "./components/CardContainer";
 import "./globals.css";
 
 const bevan = Bevan({
@@ -39,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${bevan.variable} ${lato.variable} antialiased`}>
-        {children}
+        <CardContainer>{children}</CardContainer>
       </body>
     </html>
   );

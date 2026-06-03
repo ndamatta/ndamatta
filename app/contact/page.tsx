@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import CardContainer from "../components/CardContainer";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -11,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <CardContainer showFooter={false} containerWidth="max-w-4xl">
+    <>
       <div className="flex justify-center mb-8 mt-8">
         <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-indigo-900 shadow-lg">
           <Image
@@ -84,6 +83,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-    </CardContainer>
+    </>
   );
 }
