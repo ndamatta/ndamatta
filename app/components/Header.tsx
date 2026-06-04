@@ -1,36 +1,37 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 const links = [
-  { href: "/", label: "Home" },
-  { href: "/career", label: "Career" },
-  { href: "/projects", label: "Projects" },
-  { href: "/contact", label: "Contact" },
-];
+  { href: "/", labelKey: "home" },
+  { href: "/career", labelKey: "career" },
+  { href: "/projects", labelKey: "projects" },
+  { href: "/contact", labelKey: "contact" },
+] as const;
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const t = useTranslations("header");
 
   return (
-    <header className="flex justify-center">
-      <nav className="bg-indigo-900 rounded-b-3xl shadow-lg px-8 py-4 w-full max-w-md mx-4 relative">
+    <header className="relative flex justify-center">
+      <nav className="bg-indigo-900 rounded-b-3xl shadow-lg px-8 py-4 w-full max-w-lg mx-4 relative">
 
-        {/* Desktop Nav */}
         <ul className="hidden md:flex justify-between text-md md:text-xl text-slate-100 font-bevan">
-          {links.map(({ href, label }) => (
+          {links.map(({ href, labelKey }) => (
             <li key={href} className="hover:scale-105 transition-transform">
-              <Link href={href}>{label}</Link>
+              <Link href={href}>{t(labelKey)}</Link>
             </li>
           ))}
         </ul>
 
-        {/* Burger Btn */}
         <div className="flex justify-center md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            aria-label="Toggle menu"
+            aria-label={t("toggleMenu")}
             aria-expanded={isOpen}
             className="flex flex-col justify-between w-8 h-6"
           >
@@ -52,23 +53,29 @@ export default function Header() {
           </button>
         </div>
 
-        {/* Mobile Menu — animated with max-h */}
         <div
           className={`overflow-hidden transition-all duration-300 md:hidden ${
-            isOpen ? "max-h-64 mt-6" : "max-h-0"
+            isOpen ? "max-h-80 mt-6" : "max-h-0"
           }`}
         >
           <ul className="flex flex-col gap-4 text-center text-md text-slate-100 font-bevan">
-            {links.map(({ href, label }) => (
+            {links.map(({ href, labelKey }) => (
               <li key={href} className="hover:scale-105 transition-transform">
                 <Link href={href} onClick={() => setIsOpen(false)}>
-                  {label}
+                  {t(labelKey)}
                 </Link>
               </li>
             ))}
           </ul>
+          <div className="flex justify-center mt-4">
+            <LocaleSwitcher />
+          </div>
         </div>
       </nav>
+
+      <div className="absolute right-4 top-1/2 -translate-y-1/2 hidden md:block">
+        <LocaleSwitcher />
+      </div>
     </header>
   );
 }

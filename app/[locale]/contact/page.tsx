@@ -1,21 +1,38 @@
-import type { Metadata } from "next";
-import Link from "next/link";
+import { setRequestLocale, getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
+import Link from "next/link";
 
-export const metadata: Metadata = {
-  title: "Contact - Natanael da Matta",
-  description:
-    "Get in touch with Natanael da Matta via LinkedIn or GitHub for collaborations and opportunities.",
+type Props = {
+  params: Promise<{ locale: string }>;
 };
 
-export default function ContactPage() {
+export async function generateMetadata({ params }: Props) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "contact" });
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
+
+export default async function ContactPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  return <ContactContent />;
+}
+
+function ContactContent() {
+  const t = useTranslations("contact");
+
   return (
     <>
       <div className="flex justify-center mb-8 mt-8">
         <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-indigo-900 shadow-lg">
           <Image
             src="/images/contact/pfp.png"
-            alt="Natanael da Matta"
+            alt={t("profileAlt")}
             fill
             className="object-cover"
           />
@@ -24,20 +41,23 @@ export default function ContactPage() {
 
       <div className="text-center space-y-6 mb-12">
         <h1 className="text-3xl sm:text-3xl md:text-4xl font-bevan text-slate-800">
-          Let's Connect!
+          {t("heading")}
         </h1>
-        {/* prettier-ignore */}
         <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed md:leading-loose text-slate-700 mx-auto text-center">
-          I’m open to <span className="font-semibold text-indigo-900">new opportunities</span> and collaborations in software development.
+          {t.rich("body1", {
+            bold: (chunks) => <span className="font-semibold text-indigo-900">{chunks}</span>,
+          })}
         </p>
         <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed md:leading-loose text-slate-700 mx-auto text-center">
-          If you’d like to talk about a project, a role, or just connect, feel free to <span className="font-semibold text-indigo-900">reach out through LinkedIn or GitHub</span> below.
+          {t.rich("body2", {
+            bold: (chunks) => <span className="font-semibold text-indigo-900">{chunks}</span>,
+          })}
         </p>
       </div>
 
       <section className="w-full">
         <h2 className="text-2xl sm:text-3xl md:text-3xl font-bevan text-center mb-8 text-slate-800">
-          Get In Touch
+          {t("getInTouch")}
         </h2>
 
         <div className="flex justify-center mb-5">
@@ -55,10 +75,10 @@ export default function ContactPage() {
                       src="/linkedin.svg"
                       width={40}
                       height={40}
-                      alt="LinkedIn profile"
+                      alt={t("linkedinAlt")}
                     />
                   </div>
-                  <span className="text-white text-sm font-lato">LinkedIn</span>
+                  <span className="text-white text-sm font-lato">{t("linkedinLabel")}</span>
                 </Link>
               </li>
               <li>
@@ -73,10 +93,10 @@ export default function ContactPage() {
                       src="/github.svg"
                       width={40}
                       height={40}
-                      alt="GitHub profile"
+                      alt={t("githubAlt")}
                     />
                   </div>
-                  <span className="text-white text-sm font-lato">GitHub</span>
+                  <span className="text-white text-sm font-lato">{t("githubLabel")}</span>
                 </Link>
               </li>
             </ul>

@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "title": "Natanael da Matta - Desarrollador de Software",
+    "description": "Portfolio de Natanael da Matta - Desarrollador de Software especializado en React, Next.js y tecnologías web modernas",
+    "keywords": "desarrollador, portfolio, react, nextjs, full stack, desarrollador web"
+  },
+  "header": {
+    "home": "Inicio",
+    "career": "Carrera",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "toggleMenu": "Menú"
+  },
+  "footer": {
+    "linkedinAlt": "Perfil de LinkedIn",
+    "githubAlt": "Perfil de GitHub"
+  },
+  "home": {
+    "title": "¡Hola!",
+    "bio1": "Soy Natanael, <bold>desarrollador de software</bold> con más de <bold>4 años de experiencia</bold> en la industria tecnológica.",
+    "bio2": "Comencé mi carrera como Especialista IT, y evolucioné hacia el desarrollo de aplicaciones web modernas, llegando a liderar equipos de desarrollo.",
+    "bio3": "Fuera del trabajo, me gusta el <italic>fútbol, juegos de mesa</italic> y <italic>explorar nuevos videojuegos</italic>.",
+    "bio4": "Mirá mi <linkCareer>carrera profesional</linkCareer> o explorá algunos de mis <linkProjects>proyectos</linkProjects>.",
+    "techStackTitle": "Stack Tecnológico",
+    "frontend": "Front-end",
+    "backend": "Back-end",
+    "tools": "Herramientas"
+  },
+  "career": {
+    "title": "Carrera - Natanael da Matta",
+    "description": "Experiencia laboral e historial educativo de Natanael da Matta, Desarrollador Full-Stack.",
+    "heading": "Carrera",
+    "intro1": "Trabajé en distintas empresas, <bold>tanto de forma presencial como remota</bold>, con equipos de todo el mundo. Disfruto asumir nuevos desafíos y aprender nuevas tecnologías.",
+    "intro2": "Acá vas a encontrar un <bold>recorrido</bold> de dónde trabajé.",
+    "jobExperiences": "Experiencia Laboral",
+    "education": "Educación",
+    "jobs": [
+      {
+        "company": "Empresa Privada",
+        "period": "2024 - Presente",
+        "title": "Desarrollador Full-Stack e IT",
+        "description": "Sin descripción aún =)",
+        "tags": []
+      },
+      {
+        "company": "New Alliance Inc.",
+        "period": "Nov. 2021 – Feb. 2024",
+        "title": "Desarrollador Full-Stack y Scrum Master",
+        "tags": [],
+        "description": "Broker de seguros que brinda servicios a clientes en todo California.\n-Participé en el desarrollo de una aplicación CRM full-stack (MERN, MVC) usada por 80 usuarios diarios, unificando la gestión de clientes, pagos, pólizas y manejo de documentos en una sola plataforma, reemplazando un conjunto de herramientas legacy.\n-Optimicé consultas de MongoDB y SQL en flujos de trabajo clave, eliminando consultas redundantes y reduciendo los tiempos de carga de páginas en toda la aplicación.\n-Lideré un equipo de 4 personas como Scrum Master, actuando como puente entre los stakeholders y los desarrolladores, mantuve la velocidad de los sprints, eliminé bloqueos y mantuve las prioridades alineadas durante el ciclo de entrega."
+      },
+      {
+        "company": "xSoft Sistemas",
+        "period": "Ene. 2018 – Jun. 2019",
+        "title": "Especialista en Soporte IT",
+        "tags": [],
+        "description": "Empresa de desarrollo de software especializada en soluciones comerciales para negocios.\n-Brindé soporte técnico L1–L2 y resolví entre 10 y 15 tickets de soporte por semana para un CRM propietario, e incorporé más de 20 clientes, reduciendo el tiempo de implementación al estandarizar los procedimientos de instalación y configuración.\n-Realicé validación de código y base de datos SQL Server, análisis y resolución de problemas para soportar productos de software comerciales en entornos de producción."
+      }
+    ],
+    "educationItems": [
+      {
+        "institution": "Brigham Young University–Idaho",
+        "period": "2025 – Est. Jun 2026",
+        "title": "B.S. – Desarrollo de Software",
+        "tags": [],
+        "description": "Completando una Licenciatura en Desarrollo de Software (en línea y asincrónica), con enfoque en desarrollo web e ingeniería de software. Trabajo en proyectos de programación tanto individual como en equipos, colaborando de forma remota."
+      },
+      {
+        "institution": "Brigham Young University–Idaho",
+        "period": "2022 – 2025",
+        "title": "A.A.S – Desarrollo de Software",
+        "tags": [],
+        "description": "Técnico Superior enfocado en programación, desarrollo web, bases de datos y diseño de software."
+      },
+      {
+        "institution": "BYU–Pathway Connect",
+        "period": "2021 – 2022",
+        "title": "Programa de Preparación Universitaria",
+        "tags": [],
+        "description": "Programa de preparación para el ingreso a Brigham Young University–Idaho."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos - Natanael da Matta",
+    "description": "Proyectos personales de Natanael da Matta para resolver problemas reales y practicar nuevas tecnologías.",
+    "heading": "Proyectos",
+    "intro1": "Algunos de mis proyectos personales.",
+    "intro2": "Algunos hechos para resolver problemas reales, y otros creados para practicar y aprender nuevas tecnologías.",
+    "demo": "Demo",
+    "github": "GitHub",
+    "video": "Video",
+    "items": [
+      {
+        "title": "unfollowz",
+        "image": "unfollowz.png",
+        "description": "App web de código abierto y enfocada en la privacidad que permite ver quién no te sigue de vuelta en Instagram subiendo tus datos exportados de Instagram directamente en el navegador.",
+        "demoUrl": "https://unfollowz.netlify.app",
+        "githubUrl": "https://github.com/ndamatta/unfollowz",
+        "videoUrl": "https://www.youtube.com/watch?v=v_1hdVDTges",
+        "technologies": ["Next.js", "TypeScript", "Tailwind CSS"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto - Natanael da Matta",
+    "description": "Ponete en contacto con Natanael da Matta por LinkedIn o GitHub para colaboraciones y oportunidades.",
+    "profileAlt": "Natanael da Matta",
+    "heading": "¡Conectemos!",
+    "body1": "Estoy abierto a <bold>nuevas oportunidades</bold> y colaboraciones en desarrollo de software.",
+    "body2": "Si querés hablar sobre un proyecto, un puesto, o simplemente conectarte, no dudes en <bold>contactarme por LinkedIn o GitHub</bold>.",
+    "getInTouch": "Contactame",
+    "linkedinAlt": "Perfil de LinkedIn",
+    "linkedinLabel": "LinkedIn",
+    "githubAlt": "Perfil de GitHub",
+    "githubLabel": "GitHub"
+  }
+}

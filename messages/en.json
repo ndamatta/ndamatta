@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "title": "Natanael da Matta - Full Stack Developer",
+    "description": "Portfolio of Natanael da Matta - Full Stack Developer specializing in React, Next.js, and modern web technologies",
+    "keywords": "developer, portfolio, react, nextjs, full stack, web developer"
+  },
+  "header": {
+    "home": "Home",
+    "career": "Career",
+    "projects": "Projects",
+    "contact": "Contact",
+    "toggleMenu": "Toggle menu"
+  },
+  "footer": {
+    "linkedinAlt": "LinkedIn profile",
+    "githubAlt": "GitHub profile"
+  },
+  "home": {
+    "title": "Hi!",
+    "bio1": "I'm Natanael, a <bold>full-stack developer</bold> with over <bold>4 years of experience</bold> in the tech industry.",
+    "bio2": "I started my career as an IT Specialist, and evolved into developing modern web applications, eventually leading development teams.",
+    "bio3": "Outside of work, I enjoy <italic>football, board games</italic>, and <italic>exploring new video games</italic>.",
+    "bio4": "Check out my <linkCareer>career path</linkCareer> or explore some of my <linkProjects>projects</linkProjects>.",
+    "techStackTitle": "Tech Stack",
+    "frontend": "Front-end",
+    "backend": "Back-end",
+    "tools": "Tools"
+  },
+  "career": {
+    "title": "Career - Natanael da Matta",
+    "description": "Work experience and education history of Natanael da Matta, Full-Stack Developer.",
+    "heading": "Career",
+    "intro1": "I've worked for different companies, <bold>both in person and remotely</bold>, with teams around the world. I enjoy taking on new challenges and learning new technologies.",
+    "intro2": "Here you'll find a <bold>timeline</bold> of where I've worked.",
+    "jobExperiences": "Job Experiences",
+    "education": "Education",
+    "jobs": [
+      {
+        "company": "Private Company",
+        "period": "2024 - Present",
+        "title": "Full-Stack Dev. and IT",
+        "description": "No description yet =)",
+        "tags": []
+      },
+      {
+        "company": "New Alliance Inc.",
+        "period": "Nov. 2021 – Feb. 2024",
+        "title": "Full-Stack Developer & Scrum Master",
+        "tags": [],
+        "description": "Insurance brokerage firm serving clients throughout California.\n-Participated in the development of a full-stack CRM application (MERN, MVC) used by 80 daily users, unifying customer management, payments, policies, and document handling into one platform, replacing a set of legacy tools.\n-Optimized MongoDB and SQL queries across core workflows, eliminating redundant data fetches and reducing page load times across the application.\n-Led a 4-person team as Scrum Master, acting as the bridge between stakeholders and developers, maintained sprint velocity, cleared blockers, and kept priorities aligned across the delivery cycle."
+      },
+      {
+        "company": "xSoft Sistemas",
+        "period": "Jan. 2018 – Jun. 2019",
+        "title": "IT Support Specialist",
+        "tags": [],
+        "description": "Software development company specializing in commercial business solutions.\n-Delivered L1–L2 technical support and resolved 10–15 support tickets per week for a proprietary CRM, and onboarded 20+ clients, reducing go-live time by standardizing installation and setup procedures.\n-Performed code and SQL Server database validation, analysis, and troubleshooting to support commercial software products in production environments."
+      }
+    ],
+    "educationItems": [
+      {
+        "institution": "Brigham Young University–Idaho",
+        "period": "2025 – Expected Jun 2026",
+        "title": "B.S. – Software Development",
+        "tags": [],
+        "description": "Currently completing a Bachelor's degree in Software Development (online and asynchronous), with a focus on web development and software engineering. I work on programming projects both individually and in teams, collaborating remotely."
+      },
+      {
+        "institution": "Brigham Young University–Idaho",
+        "period": "2022 – 2025",
+        "title": "A.A.S – Software Development",
+        "tags": [],
+        "description": "Associate degree focused on programming, web development, databases, and software design."
+      },
+      {
+        "institution": "BYU–Pathway Connect",
+        "period": "2021 – 2022",
+        "title": "University Preparation Program",
+        "tags": [],
+        "description": "Preparation program for admission to Brigham Young University–Idaho."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects - Natanael da Matta",
+    "description": "Personal projects built by Natanael da Matta to solve real problems and practice new technologies.",
+    "heading": "Projects",
+    "intro1": "Some of my personal projects.",
+    "intro2": "Some built to solve real problems, and others created to practice and learn new technologies.",
+    "demo": "Demo",
+    "github": "GitHub",
+    "video": "Video",
+    "items": [
+      {
+        "title": "unfollowz",
+        "image": "unfollowz.png",
+        "description": "Open-source and privacy focused web app that lets users see who doesn't follow them back on Instagram by uploading their exported Instagram data directly in the browser.",
+        "demoUrl": "https://unfollowz.netlify.app",
+        "githubUrl": "https://github.com/ndamatta/unfollowz",
+        "videoUrl": "https://www.youtube.com/watch?v=v_1hdVDTges",
+        "technologies": ["Next.js", "TypeScript", "Tailwind CSS"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact - Natanael da Matta",
+    "description": "Get in touch with Natanael da Matta via LinkedIn or GitHub for collaborations and opportunities.",
+    "profileAlt": "Natanael da Matta",
+    "heading": "Let's Connect!",
+    "body1": "I'm open to <bold>new opportunities</bold> and collaborations in software development.",
+    "body2": "If you'd like to talk about a project, a role, or just connect, feel free to <bold>reach out through LinkedIn or GitHub</bold> below.",
+    "getInTouch": "Get In Touch",
+    "linkedinAlt": "LinkedIn profile",
+    "linkedinLabel": "LinkedIn",
+    "githubAlt": "GitHub profile",
+    "githubLabel": "GitHub"
+  }
+}

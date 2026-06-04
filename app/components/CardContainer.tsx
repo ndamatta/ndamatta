@@ -1,6 +1,7 @@
 "use client";
 
-import { usePathname } from "next/navigation";
+import { usePathname } from "@/i18n/navigation";
+import { useLocale } from "next-intl";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 
@@ -21,6 +22,7 @@ export default function CardContainer({
   className = "",
 }: CardContainerProps) {
   const pathname = usePathname();
+  const locale = useLocale();
   const config = routeConfig[pathname] ?? { maxWidth: "56rem", showFooter: true };
 
   return (
@@ -32,7 +34,7 @@ export default function CardContainer({
         <Header />
 
         <section className="flex-1 flex flex-col items-center px-6 md:px-16 md:overflow-y-auto md:scrollbar-thumb-rounded-full md:scrollbar-track-rounded-full md:scrollbar md:scrollbar-thumb-indigo-900 md:scrollbar-track-slate-100">
-          <div key={pathname} className="w-full animate-pageFadeIn">
+          <div key={`${locale}-${pathname}`} className="w-full animate-pageFadeIn">
             {children}
           </div>
         </section>
