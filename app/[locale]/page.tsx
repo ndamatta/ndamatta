@@ -18,12 +18,9 @@ function HomeContent() {
   const t = useTranslations("home");
 
   const frontend = [
-    "html.svg",
-    "css3.svg",
-    "js.svg",
-    "wordpress.svg",
     "react.svg",
     "nextjs.svg",
+    "js.svg",
     "tailwind.svg",
     "bulma.svg",
   ];
@@ -46,35 +43,40 @@ function HomeContent() {
 
   return (
     <>
-      <div className="text-center space-y-6 mb-12 mt-8">
-        <h1 className="text-3xl sm:text-3xl md:text-4xl font-bevan text-slate-800">
+      <div className="text-center mb-12 mt-16">
+        <h1 className="text-3xl sm:text-3xl md:text-4xl font-bevan text-slate-800 mb-2">
           {t("title")}
         </h1>
-
-        <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
-          {t.rich("bio1", {
-            bold: (chunks) => <span className="font-semibold text-slate-900">{chunks}</span>,
-          })}
+        <p className="text-lg sm:text-xl md:text-2xl font-lato text-slate-600 mb-6">
+          Natanael da Matta
         </p>
 
-        <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
-          {t.rich("bio2", {
-            bold: (chunks) => <span className="font-semibold text-slate-900">{chunks}</span>,
-          })}
-        </p>
+        <div className="space-y-6">
+          <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
+            {t.rich("bio1", {
+              bold: (chunks) => <span className="font-semibold text-slate-900">{chunks}</span>,
+            })}
+          </p>
 
-        <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
-          {t.rich("bio3", {
-            italic: (chunks) => <span className="italic">{chunks}</span>,
-          })}
-        </p>
+          <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
+            {t.rich("bio2", {
+              bold: (chunks) => <span className="font-semibold text-slate-900">{chunks}</span>,
+            })}
+          </p>
 
-        <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
-          {t.rich("bio4", {
-            linkCareer: (chunks) => <Link href="/career" className="text-blue-600 font-medium hover:underline">{chunks}</Link>,
-            linkProjects: (chunks) => <Link href="/projects" className="text-blue-600 font-medium hover:underline">{chunks}</Link>,
-          })}
-        </p>
+          <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
+            {t.rich("bio3", {
+              italic: (chunks) => <span className="italic">{chunks}</span>,
+            })}
+          </p>
+
+          <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
+            {t.rich("bio4", {
+              linkCareer: (chunks) => <Link href="/career" className="text-blue-600 font-medium hover:underline">{chunks}</Link>,
+              linkProjects: (chunks) => <Link href="/projects" className="text-blue-600 font-medium hover:underline">{chunks}</Link>,
+            })}
+          </p>
+        </div>
       </div>
 
       <section className="w-full">
