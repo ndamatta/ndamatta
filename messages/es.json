@@ -62,22 +62,15 @@
         "institution": "Brigham Young University–Idaho",
         "period": "2025 – Est. Jun 2026",
         "title": "B.S. – Desarrollo de Software",
-        "tags": [],
+        "tags": ["En Progreso"],
         "description": "Completando una Licenciatura en Desarrollo de Software (en línea y asincrónica), con enfoque en desarrollo web e ingeniería de software. Trabajo en proyectos de programación tanto individual como en equipos, colaborando de forma remota."
       },
       {
         "institution": "Brigham Young University–Idaho",
         "period": "2022 – 2025",
         "title": "A.A.S – Desarrollo de Software",
-        "tags": [],
+        "tags": ["Graduado"],
         "description": "Técnico Superior enfocado en programación, desarrollo web, bases de datos y diseño de software."
-      },
-      {
-        "institution": "BYU–Pathway Connect",
-        "period": "2021 – 2022",
-        "title": "Programa de Preparación Universitaria",
-        "tags": [],
-        "description": "Programa de preparación para el ingreso a Brigham Young University–Idaho."
       }
     ]
   },
@@ -93,8 +86,8 @@
     "items": [
       {
         "title": "unfollowz",
-        "image": "unfollowz.png",
-        "description": "App web de código abierto y enfocada en la privacidad que permite ver quién no te sigue de vuelta en Instagram subiendo tus datos exportados de Instagram directamente en el navegador.",
+        "image": "unfollowz.webp",
+        "description": "App web de código abierto y enfocada en la privacidad que permite ver quién no te sigue de vuelta en Instagram.",
         "demoUrl": "https://unfollowz.netlify.app",
         "githubUrl": "https://github.com/ndamatta/unfollowz",
         "videoUrl": "https://www.youtube.com/watch?v=v_1hdVDTges",
