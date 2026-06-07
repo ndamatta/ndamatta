@@ -1,7 +1,6 @@
-👋 hi!
-I'm Natanael (Nate) I've always been passionate about coding and technology.
+I'm Natanael, a Software Developer with over 4 years of experience in the tech industry.
 
-💼 Over the past few years, I've worked for different companies as a
-Web Developer using the MERN stack, as well as in general IT roles.
+I started my career as an IT Specialist, and evolved into developing modern web applications, eventually leading development teams.<br>
+Outside of work, I enjoy football, board games, and exploring new video games.
 
-🎓 I’ve earned an AAS in Software Development from BYU–Idaho, and I’m currently finishing my Bachelor’s degree in Software Dev.
+For more info, visit my portfolio --> [ndamatta.com.ar](https://www.ndamatta.com.ar)
