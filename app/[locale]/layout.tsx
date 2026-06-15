@@ -1,5 +1,5 @@
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Bevan, Lato } from "next/font/google";
@@ -32,8 +32,29 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "metadata" });
+  const baseUrl = "https://ndamatta.com.ar";
+
   return {
-    title: locale === "es" ? "Natanael da Matta - Desarrollador Full Stack" : "Natanael da Matta - Full Stack Developer",
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords"),
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url: `${baseUrl}/${locale}`,
+      siteName: "Natanael da Matta",
+      locale: locale === "es" ? "es_AR" : "en_US",
+      type: "website",
+    },
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages: {
+        en: `${baseUrl}/en`,
+        es: `${baseUrl}/es`,
+        "x-default": `${baseUrl}/en`,
+      },
+    },
   };
 }
 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ndamatta.com.ar/en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en"/>
+  </url>
+  <url>
+    <loc>https://ndamatta.com.ar/es</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en"/>
+  </url>
+  <url>
+    <loc>https://ndamatta.com.ar/en/career</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es/career"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en/career"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en/career"/>
+  </url>
+  <url>
+    <loc>https://ndamatta.com.ar/es/career</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en/career"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es/career"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en/career"/>
+  </url>
+  <url>
+    <loc>https://ndamatta.com.ar/en/projects</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es/projects"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en/projects"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en/projects"/>
+  </url>
+  <url>
+    <loc>https://ndamatta.com.ar/es/projects</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en/projects"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es/projects"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en/projects"/>
+  </url>
+  <url>
+    <loc>https://ndamatta.com.ar/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en/contact"/>
+  </url>
+  <url>
+    <loc>https://ndamatta.com.ar/es/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en/contact"/>
+  </url>
+</urlset>

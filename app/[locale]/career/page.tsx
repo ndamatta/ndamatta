@@ -10,9 +10,27 @@ type Props = {
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "career" });
+  const baseUrl = "https://ndamatta.com.ar";
+
   return {
     title: t("title"),
     description: t("description"),
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url: `${baseUrl}/${locale}/career`,
+      siteName: "Natanael da Matta",
+      locale: locale === "es" ? "es_AR" : "en_US",
+      type: "website",
+    },
+    alternates: {
+      canonical: `${baseUrl}/${locale}/career`,
+      languages: {
+        en: `${baseUrl}/en/career`,
+        es: `${baseUrl}/es/career`,
+        "x-default": `${baseUrl}/en/career`,
+      },
+    },
   };
 }
 
