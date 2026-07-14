@@ -22,6 +22,13 @@ export async function generateMetadata({ params }: Props) {
       siteName: "Natanael da Matta",
       locale: locale === "es" ? "es_AR" : "en_US",
       type: "website",
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+      images: ["/og-image.jpg"],
     },
     alternates: {
       canonical: `${baseUrl}/${locale}/career`,

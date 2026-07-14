@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Natanael da Matta - Desarrollador de Software",
     "description": "Portfolio de Natanael da Matta - Desarrollador de Software especializado en React, Next.js y tecnologías web modernas",
-    "keywords": "desarrollador, portfolio, react, nextjs, full stack, desarrollador web"
+    "keywords": "Natanael da Matta, desarrollador, portfolio, react, nextjs, full stack, desarrollador web, natanael, matta, ndamatta"
   },
   "header": {
     "home": "Inicio",
@@ -27,8 +27,8 @@
     "tools": "Herramientas"
   },
   "career": {
-    "title": "Carrera - Natanael da Matta",
-    "description": "Experiencia laboral e historial educativo de Natanael da Matta, Desarrollador Full-Stack.",
+    "title": "Natanael da Matta — Carrera",
+    "description": "Experiencia profesional e historial educativo de Natanael da Matta, Desarrollador Full-Stack.",
     "heading": "Carrera",
     "intro1": "Trabajé en distintas empresas, <bold>tanto de forma presencial como remota</bold>, con equipos de todo el mundo. Disfruto asumir nuevos desafíos y aprender nuevas tecnologías.",
     "intro2": "Acá vas a encontrar un <bold>recorrido</bold> de dónde trabajé.",
@@ -75,8 +75,8 @@
     ]
   },
   "projects": {
-    "title": "Proyectos - Natanael da Matta",
-    "description": "Proyectos personales de Natanael da Matta para resolver problemas reales y practicar nuevas tecnologías.",
+    "title": "Natanael da Matta — Proyectos",
+    "description": "Proyectos personales de Natanael da Matta — resolver problemas reales y practicar nuevas tecnologías.",
     "heading": "Proyectos",
     "intro1": "Algunos de mis proyectos personales.",
     "intro2": "Algunos hechos para resolver problemas reales, y otros creados para practicar y aprender nuevas tecnologías.",
@@ -96,8 +96,8 @@
     ]
   },
   "contact": {
-    "title": "Contacto - Natanael da Matta",
-    "description": "Ponete en contacto con Natanael da Matta por LinkedIn o GitHub para colaboraciones y oportunidades.",
+    "title": "Natanael da Matta — Contacto",
+    "description": "Conectá con Natanael da Matta — LinkedIn y GitHub para colaboraciones y oportunidades.",
     "profileAlt": "Natanael da Matta",
     "heading": "¡Conectemos!",
     "body1": "Estoy abierto a <bold>nuevas oportunidades</bold> y colaboraciones en desarrollo de software.",

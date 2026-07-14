@@ -3,48 +3,72 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ndamatta.com.ar/en</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en"/>
   </url>
   <url>
     <loc>https://ndamatta.com.ar/es</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en"/>
   </url>
   <url>
     <loc>https://ndamatta.com.ar/en/career</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es/career"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en/career"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en/career"/>
   </url>
   <url>
     <loc>https://ndamatta.com.ar/es/career</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en/career"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es/career"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en/career"/>
   </url>
   <url>
     <loc>https://ndamatta.com.ar/en/projects</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es/projects"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en/projects"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en/projects"/>
   </url>
   <url>
     <loc>https://ndamatta.com.ar/es/projects</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en/projects"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es/projects"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en/projects"/>
   </url>
   <url>
     <loc>https://ndamatta.com.ar/en/contact</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en/contact"/>
   </url>
   <url>
     <loc>https://ndamatta.com.ar/es/contact</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://ndamatta.com.ar/en/contact"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://ndamatta.com.ar/es/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ndamatta.com.ar/en/contact"/>

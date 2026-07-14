@@ -45,10 +45,10 @@ function HomeContent() {
     <>
       <div className="text-center mb-12 mt-16">
         <h1 className="text-3xl sm:text-3xl md:text-4xl font-bevan text-slate-800 mb-2">
-          {t("title")}
+          Natanael da Matta
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl font-lato text-slate-600 mb-6">
-          Natanael da Matta
+          {t("title")}
         </p>
 
         <div className="space-y-6">
@@ -72,8 +72,8 @@ function HomeContent() {
 
           <p className="text-base sm:text-lg md:text-xl font-lato max-w-2xl leading-relaxed mx-auto text-slate-700">
             {t.rich("bio4", {
-              linkCareer: (chunks) => <Link href="/career" className="text-blue-600 font-medium hover:underline">{chunks}</Link>,
-              linkProjects: (chunks) => <Link href="/projects" className="text-blue-600 font-medium hover:underline">{chunks}</Link>,
+              linkCareer: (chunks) => <Link href="/career" className="text-indigo-600 font-medium hover:underline">{chunks}</Link>,
+              linkProjects: (chunks) => <Link href="/projects" className="text-indigo-600 font-medium hover:underline">{chunks}</Link>,
             })}
           </p>
         </div>

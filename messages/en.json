@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Natanael da Matta - Software Developer",
     "description": "Portfolio of Natanael da Matta - Software Developer specializing in React, Next.js, and modern web technologies",
-    "keywords": "developer, portfolio, react, nextjs, full stack, web developer"
+    "keywords": "Natanael da Matta, software developer, portfolio, react, nextjs, full stack, web developer, natanael, matta, ndamatta"
   },
   "header": {
     "home": "Home",
@@ -27,8 +27,8 @@
     "tools": "Tools"
   },
   "career": {
-    "title": "Career - Natanael da Matta",
-    "description": "Work experience and education history of Natanael da Matta, Full-Stack Developer.",
+    "title": "Natanael da Matta — Career",
+    "description": "Professional experience and education of Natanael da Matta, Full-Stack Developer.",
     "heading": "Career",
     "intro1": "I've worked for different companies, <bold>both in person and remotely</bold>, with teams around the world. I enjoy taking on new challenges and learning new technologies.",
     "intro2": "Here you'll find a <bold>timeline</bold> of where I've worked.",
@@ -75,8 +75,8 @@
     ]
   },
   "projects": {
-    "title": "Projects - Natanael da Matta",
-    "description": "Personal projects built by Natanael da Matta to solve real problems and practice new technologies.",
+    "title": "Natanael da Matta — Projects",
+    "description": "Personal projects by Natanael da Matta — solving real problems and practicing new technologies.",
     "heading": "Projects",
     "intro1": "Some of my personal projects.",
     "intro2": "Some built to solve real problems, and others created to practice and learn new technologies.",
@@ -96,8 +96,8 @@
     ]
   },
   "contact": {
-    "title": "Contact - Natanael da Matta",
-    "description": "Get in touch with Natanael da Matta via LinkedIn or GitHub for collaborations and opportunities.",
+    "title": "Natanael da Matta — Contact",
+    "description": "Get in touch with Natanael da Matta — LinkedIn and GitHub for collaborations and opportunities.",
     "profileAlt": "Natanael da Matta",
     "heading": "Let's Connect!",
     "body1": "I'm open to <bold>new opportunities</bold> and collaborations in software development.",

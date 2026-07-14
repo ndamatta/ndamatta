@@ -39,6 +39,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: t("title"),
     description: t("description"),
     keywords: t("keywords"),
+    robots: { index: true, follow: true },
     openGraph: {
       title: t("title"),
       description: t("description"),
@@ -46,6 +47,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       siteName: "Natanael da Matta",
       locale: locale === "es" ? "es_AR" : "en_US",
       type: "website",
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+      images: ["/og-image.jpg"],
     },
     alternates: {
       canonical: `${baseUrl}/${locale}`,
@@ -70,6 +78,23 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale}>
       <body className={`${bevan.variable} ${lato.variable} antialiased`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Natanael da Matta",
+              jobTitle: "Software Developer",
+              url: "https://ndamatta.com.ar",
+              sameAs: [
+                "https://linkedin.com/in/ndamatta",
+                "https://github.com/ndamatta",
+              ],
+              image: "https://ndamatta.com.ar/images/contact/pfp.png",
+            }),
+          }}
+        />
         <NextIntlClientProvider messages={messages}>
           <CardContainer>{children}</CardContainer>
         </NextIntlClientProvider>
