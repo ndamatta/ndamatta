@@ -36,18 +36,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-# graphify knowledge graph artifacts
-graphify-out/
-
-# impeccable tooling (local only)
-.github/hooks/
-.github/skills/
-.opencode/
-DESIGN.md
-PRODUCT.md
-design-review.json
-
-
 # typescript
 *.tsbuildinfo
 next-env.d.ts
