@@ -34,6 +34,9 @@
     "intro2": "Acá vas a encontrar un <bold>recorrido</bold> de dónde trabajé.",
     "jobExperiences": "Experiencia Laboral",
     "education": "Educación",
+    "viewCertificate": "Ver Certificado",
+    "closeDialog": "Cerrar vista del certificado",
+    "validationUrl": "ver la verificación oficial de Michael Sutter",
     "jobs": [
       {
         "company": "Empresa Privada",
@@ -70,7 +73,8 @@
         "period": "2022 – 2025",
         "title": "A.A.S – Desarrollo de Software",
         "tags": ["Graduado"],
-        "description": "Técnico Superior enfocado en programación, desarrollo web, bases de datos y diseño de software."
+        "description": "Técnico Superior enfocado en programación, desarrollo web, bases de datos y diseño de software.",
+        "certificateUrl": "/images/education/aas_certificate.webp"
       }
     ]
   },

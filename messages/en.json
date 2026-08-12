@@ -34,6 +34,9 @@
     "intro2": "Here you'll find a <bold>timeline</bold> of where I've worked.",
     "jobExperiences": "Job Experiences",
     "education": "Education",
+    "viewCertificate": "View Certificate",
+    "closeDialog": "Close certificate preview",
+    "validationUrl": "see Michael Sutter official verification",
     "jobs": [
       {
         "company": "Private Company",
@@ -70,7 +73,8 @@
         "period": "2022 – 2025",
         "title": "A.A.S – Software Development",
         "tags": ["Graduated"],
-        "description": "Associate degree focused on programming, web development, databases, and software design."
+        "description": "Associate degree focused on programming, web development, databases, and software design.",
+        "certificateUrl": "/images/education/aas_certificate.webp"
       }
     ]
   },

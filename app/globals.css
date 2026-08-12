@@ -47,3 +47,17 @@ body {
 .animate-pageFadeIn {
   animation: pageFadeIn 300ms ease-out;
 }
+
+dialog::backdrop {
+  background-color: rgb(15 23 42 / 0.8);
+}
+
+dialog[open] {
+  animation: pageFadeIn 200ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  dialog[open] {
+    animation: none;
+  }
+}

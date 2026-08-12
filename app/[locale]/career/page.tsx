@@ -92,8 +92,8 @@ function CareerContent() {
         </h2>
 
         <div className="relative pl-3 border-l-2 border-indigo-900">
-          {educationItems.map((edu: { institution: string; period: string; title: string; description: string; tags: string[] }, idx: number) => (
-            <Education key={idx} {...edu} />
+          {educationItems.map((edu: { institution: string; period: string; title: string; description: string; tags: string[]; certificateUrl?: string }, idx: number) => (
+            <Education key={idx} idx={idx} {...edu} />
           ))}
         </div>
       </div>
