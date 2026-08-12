@@ -1,7 +1,7 @@
-import { setRequestLocale, getTranslations } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
+import { buildMetadata } from "@/lib/seo";
 import Image from "next/image";
-import Link from "next/link";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -9,36 +9,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "contact" });
-  const baseUrl = "https://ndamatta.com.ar";
-
-  return {
-    title: t("title"),
-    description: t("description"),
-    openGraph: {
-      title: t("title"),
-      description: t("description"),
-      url: `${baseUrl}/${locale}/contact`,
-      siteName: "Natanael da Matta",
-      locale: locale === "es" ? "es_AR" : "en_US",
-      type: "website",
-      images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: t("title"),
-      description: t("description"),
-      images: ["/og-image.jpg"],
-    },
-    alternates: {
-      canonical: `${baseUrl}/${locale}/contact`,
-      languages: {
-        en: `${baseUrl}/en/contact`,
-        es: `${baseUrl}/es/contact`,
-        "x-default": `${baseUrl}/en/contact`,
-      },
-    },
-  };
+  return buildMetadata({ locale, namespace: "contact", path: "/contact" });
 }
 
 export default async function ContactPage({ params }: Props) {
@@ -90,7 +61,7 @@ function ContactContent() {
           <div className="bg-indigo-900 rounded-3xl px-8 py-6 shadow-lg">
             <ul className="flex gap-8">
               <li>
-                <Link
+                <a
                   href="https://linkedin.com/in/ndamatta"
                   className="flex flex-col items-center gap-2 hover:scale-105"
                   target="_blank"
@@ -105,10 +76,10 @@ function ContactContent() {
                     />
                   </div>
                   <span className="text-white text-sm font-lato">{t("linkedinLabel")}</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   href="https://github.com/ndamatta"
                   className="flex flex-col items-center gap-2 hover:scale-105"
                   target="_blank"
@@ -123,7 +94,7 @@ function ContactContent() {
                     />
                   </div>
                   <span className="text-white text-sm font-lato">{t("githubLabel")}</span>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

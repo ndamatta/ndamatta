@@ -1,8 +1,9 @@
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Bevan, Lato } from "next/font/google";
+import { buildMetadata } from "@/lib/seo";
 import CardContainer from "@/app/components/CardContainer";
 import "../globals.css";
 
@@ -32,38 +33,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "metadata" });
-  const baseUrl = "https://ndamatta.com.ar";
-
-  return {
-    title: t("title"),
-    description: t("description"),
-    keywords: t("keywords"),
-    robots: { index: true, follow: true },
-    openGraph: {
-      title: t("title"),
-      description: t("description"),
-      url: `${baseUrl}/${locale}`,
-      siteName: "Natanael da Matta",
-      locale: locale === "es" ? "es_AR" : "en_US",
-      type: "website",
-      images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: t("title"),
-      description: t("description"),
-      images: ["/og-image.jpg"],
-    },
-    alternates: {
-      canonical: `${baseUrl}/${locale}`,
-      languages: {
-        en: `${baseUrl}/en`,
-        es: `${baseUrl}/es`,
-        "x-default": `${baseUrl}/en`,
-      },
-    },
-  };
+  return buildMetadata({ locale, namespace: "metadata" });
 }
 
 export default async function LocaleLayout({ children, params }: Props) {

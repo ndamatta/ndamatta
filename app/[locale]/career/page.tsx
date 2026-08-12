@@ -1,5 +1,6 @@
-import { setRequestLocale, getTranslations } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
+import { buildMetadata } from "@/lib/seo";
 import Job from "@/app/components/Job";
 import Education from "@/app/components/Education";
 
@@ -9,36 +10,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "career" });
-  const baseUrl = "https://ndamatta.com.ar";
-
-  return {
-    title: t("title"),
-    description: t("description"),
-    openGraph: {
-      title: t("title"),
-      description: t("description"),
-      url: `${baseUrl}/${locale}/career`,
-      siteName: "Natanael da Matta",
-      locale: locale === "es" ? "es_AR" : "en_US",
-      type: "website",
-      images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: t("title"),
-      description: t("description"),
-      images: ["/og-image.jpg"],
-    },
-    alternates: {
-      canonical: `${baseUrl}/${locale}/career`,
-      languages: {
-        en: `${baseUrl}/en/career`,
-        es: `${baseUrl}/es/career`,
-        "x-default": `${baseUrl}/en/career`,
-      },
-    },
-  };
+  return buildMetadata({ locale, namespace: "career", path: "/career" });
 }
 
 export default async function CareerPage({ params }: Props) {
