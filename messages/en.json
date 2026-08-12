@@ -89,6 +89,15 @@
     "video": "Video",
     "items": [
       {
+        "title": "Heroes",
+        "image": "heroes.webp",
+        "description": "Open-source web app to report missing persons and coordinate search efforts during emergencies.",
+        "demoUrl": "https://heroes-webapp.vercel.app",
+        "githubUrl": "https://github.com/jcolmenarezgil/heroes",
+        "videoUrl": "",
+        "technologies": ["Next.js", "Tailwind CSS", "PostgreSQL", "Drizzle ORM"]
+      },
+      {
         "title": "unfollowz",
         "image": "unfollowz.webp",
         "description": "Open-source and privacy focused web app that lets you see who doesn't follow you back on Instagram.",

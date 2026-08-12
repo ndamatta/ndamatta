@@ -89,6 +89,15 @@
     "video": "Video",
     "items": [
       {
+        "title": "Heroes",
+        "image": "heroes.webp",
+        "description": "App web de código abierto para reportar personas desaparecidas y coordinar su búsqueda durante emergencias.",
+        "demoUrl": "https://heroes-webapp.vercel.app",
+        "githubUrl": "https://github.com/jcolmenarezgil/heroes",
+        "videoUrl": "",
+        "technologies": ["Next.js", "Tailwind CSS", "PostgreSQL", "Drizzle ORM"]
+      },
+      {
         "title": "unfollowz",
         "image": "unfollowz.webp",
         "description": "App web de código abierto y enfocada en la privacidad que permite ver quién no te sigue de vuelta en Instagram.",

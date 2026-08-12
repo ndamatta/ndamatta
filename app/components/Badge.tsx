@@ -1,10 +1,13 @@
 type BadgeProps = {
   label: string;
+  className?: string;
 };
 
-export default function Badge({ label }: BadgeProps) {
+export default function Badge({ label, className = "" }: BadgeProps) {
   return (
-    <span className="text-xs font-lato px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-900">
+    <span
+      className={`text-xs font-lato px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-900 ${className}`}
+    >
       {label}
     </span>
   );

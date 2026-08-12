@@ -41,7 +41,7 @@ export default function Project({
 
       <div className="flex flex-wrap gap-1 mb-2">
         {technologies.map((tech) => (
-          <Badge key={tech} label={tech} />
+          <Badge key={tech} label={tech} className="text-[10px] px-1.5 py-0" />
         ))}
       </div>
 
