@@ -57,6 +57,10 @@ dialog[open] {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  body {
+    animation: none;
+  }
+
   dialog[open] {
     animation: none;
   }

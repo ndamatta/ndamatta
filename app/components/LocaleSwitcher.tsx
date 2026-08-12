@@ -2,12 +2,14 @@
 
 import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 import { routing } from "@/i18n/routing";
 
 export default function LocaleSwitcher() {
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
+  const t = useTranslations("header");
 
   const otherLocale = locale === routing.defaultLocale
     ? routing.locales.find((l) => l !== routing.defaultLocale)!
@@ -20,6 +22,7 @@ export default function LocaleSwitcher() {
   return (
     <button
       onClick={handleToggle}
+      aria-label={t("switchLanguage")}
       className="flex bg-indigo-800 rounded-full p-1 cursor-pointer"
     >
       {routing.locales.map((loc) => (

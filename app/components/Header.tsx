@@ -33,6 +33,7 @@ export default function Header() {
             onClick={() => setIsOpen(!isOpen)}
             aria-label={t("toggleMenu")}
             aria-expanded={isOpen}
+            aria-controls="mobile-menu"
             className="flex flex-col justify-between w-8 h-6"
           >
             <span
@@ -54,6 +55,8 @@ export default function Header() {
         </div>
 
         <div
+          id="mobile-menu"
+          inert={!isOpen}
           className={`overflow-hidden transition-all duration-300 md:hidden ${
             isOpen ? "max-h-80 mt-6" : "max-h-0"
           }`}
