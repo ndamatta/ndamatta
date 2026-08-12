@@ -1,12 +1,17 @@
 type BadgeProps = {
   label: string;
-  className?: string;
+  size?: "sm" | "xs";
 };
 
-export default function Badge({ label, className = "" }: BadgeProps) {
+const sizeClasses = {
+  sm: "text-xs px-2 py-0.5",
+  xs: "text-[10px] px-1.5 py-0",
+};
+
+export default function Badge({ label, size = "sm" }: BadgeProps) {
   return (
     <span
-      className={`text-xs font-lato px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-900 ${className}`}
+      className={`${sizeClasses[size]} font-lato rounded-full bg-indigo-100 text-indigo-900`}
     >
       {label}
     </span>

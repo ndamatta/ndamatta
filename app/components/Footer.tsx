@@ -1,7 +1,6 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 import Image from "next/image";
 
 export default function Footer() {
@@ -12,7 +11,7 @@ export default function Footer() {
       <div className="bg-indigo-900 rounded-t-3xl px-6 py-2 shadow-md">
         <ul className="flex gap-6">
           <li>
-            <Link
+            <a
               href="https://linkedin.com/in/ndamatta"
               className="block hover:scale-105 transition-transform"
               target="_blank"
@@ -24,10 +23,10 @@ export default function Footer() {
                 height={32}
                 alt={t("linkedinAlt")}
               />
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
+            <a
               href="https://github.com/ndamatta"
               className="block hover:scale-105 transition-transform"
               target="_blank"
@@ -39,7 +38,7 @@ export default function Footer() {
                 height={32}
                 alt={t("githubAlt")}
               />
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
