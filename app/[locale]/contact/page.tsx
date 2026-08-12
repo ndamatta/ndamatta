@@ -53,8 +53,8 @@ function ContactContent() {
 
   return (
     <>
-      <div className="flex justify-center mb-8 mt-8">
-        <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-indigo-900 shadow-lg">
+      <div className="flex justify-center mb-6 mt-4">
+        <div className="relative w-60 h-60 rounded-full overflow-hidden border-4 border-indigo-900 shadow-lg">
           <Image
             src="/images/contact/pfp.png"
             alt={t("profileAlt")}
@@ -65,7 +65,7 @@ function ContactContent() {
         </div>
       </div>
 
-      <div className="text-center space-y-6 mb-12">
+      <div className="text-center space-y-5 mb-10">
         <h1 className="text-3xl sm:text-3xl md:text-4xl font-bevan text-slate-800">
           {t("heading")}
         </h1>
@@ -82,11 +82,11 @@ function ContactContent() {
       </div>
 
       <section className="w-full">
-        <h2 className="text-2xl sm:text-3xl md:text-3xl font-bevan text-center mb-8 text-slate-800">
+        <h2 className="text-2xl sm:text-3xl md:text-3xl font-bevan text-center mb-6 text-slate-800">
           {t("getInTouch")}
         </h2>
 
-        <div className="flex justify-center mb-5">
+        <div className="flex justify-center">
           <div className="bg-indigo-900 rounded-3xl px-8 py-6 shadow-lg">
             <ul className="flex gap-8">
               <li>
